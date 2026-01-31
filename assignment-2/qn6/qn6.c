@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
   int a = 1;
@@ -13,11 +14,15 @@ int main(){
   printf("%05d\n", d);
   printf("%05d\n", e);
 
-  char a1 = 'a';
-  char a2 = 'ab';
-  char a3 = 'abc';
-  char a4 = 'abcd';
-  char a5 = 'abcde';
-
-  printf("% 5f\n", a1);
+  char a1[] = "a";
+  char a2[] = "ab";
+  char a3[] = "abc";
+  char a4[] = "abcd";
+  char a5[] = "abcde";
+  printf("-------------------------------\n");
+  printf("%5s\n", a1);
+  printf("%5s\n", a2);
+  printf("%5s\n", a3);
+  printf("%5s\n", a4);
+  printf("%5s\n", a5);
 }
