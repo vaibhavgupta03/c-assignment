@@ -12,7 +12,7 @@ Output:
 Result = 38 */
 
 #include <stdio.h>
-
+6
 int main() {
     int result = 0, num;
     char operator;
